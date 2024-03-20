@@ -765,6 +765,24 @@ yamlDiagram {
     FontStyle italic
   }
 }
+
+'' Start test Denis
+sequenceDiagram {
+  .new {
+    FontColor black
+    LineColor #red
+    BackgroundColor #white
+    LineThickness 3
+}
+  .modify {
+    FontColor black
+    LineColor #orange
+    BackgroundColor #white
+    LineThickness 3
+    }
+  }
+'' End test Denis
+
 </style>
 !endsub
 '!endif
